@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- Centro de Biotecnologia Agropecuaria
+Análisis y Desarrollo de Software
+Ficha: 2470980
+Autor: Lina Jhoanna Martínez Garzón
+Fecha de creación: 15/02/2022
+Fecha de actualización: 22/02/2022-->
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rellena tu CV</title>
+        <link rel="icon" href="Imagen/Formatos1.png">
+        <link rel="stylesheet" href="Css/EJERCICIO13.CSS">
+    </head>
+    <body>
+        <!-- Etiquetas Utlizadas:
+        from: define un formulario html
+        h3: define encabezados o títulos.
+        input: define un control de entrada de texto
+        br: define un salto de línea --> 
+        <div id="container">
+             
+            <h3 class="agua">Rellena tu CV</h3>
+            <form action="/php/insertar_CV.php" method="post" enctype="multipart/form-data">
+                Nombre <br/>
+                <input type="text" name="nombre" value="" size="20" maxlength="30"/>
+                <br/>
+                Apellidos <br/>
+                <input type="text" name="apellido" value="" size="50" maxlength="80"/> 
+                <br/>
+                Contraseña <br/>
+                <input type="password" name="contraseña" value="" maxlength="10"/>
+                <br/>
+                DNI <br/>
+                <input type="text" name="dni" value="" size="10" maxlength="9"/>
+                <br/>
+                Sexo <br/>
+                <input type="radio" name="sexo" value="hombre" checked="checked"/>
+                <input type="radio" name="sexo" value="mujer"/>Mujer
+                <br/><br/>
+                <input type="submit" name="enviar" value="Guardar cambios"/>
+                <input type="reset" name="Limpiar" value="Borrar los datos introducidos"/>
+            </form>
+        </div>
+    </body>
+</html>

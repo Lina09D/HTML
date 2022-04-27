@@ -1,0 +1,33 @@
+/*Centro de Biotecnologia Agropecuaria
+Análisis y Desarrollo de Software
+Ficha: 2470980
+Autor: Lina Jhoanna Martínez Garzón
+Fecha de creación: 15/02/2022
+Fecha de actualización: 22/02/2022*/
+body{
+    background-color: greenyellow;
+}
+#tit{
+    color: rgb(21, 147, 179);
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.salo{
+    color: rgb(19, 161, 161);
+}
+#container{
+    width: 1000px;
+    height: 700px;
+    background-color: rgb(238, 144, 225);
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Definición:
+background-color: define el color de fondo de un elemento, puede ser el valor de un color.
+color: selecciona el valor de color de primer plano del contenido de elemento de texto y decoraciones de texto.
+font-size: especifica la dimensión de la letra. Este tamaño puede, a su vez, alterar el aspecto de alguna otra cosa, ya que se usa para calcular la longitud de las unidades em y ex.
+font-family: define una lista de fuentes o familias de fuentes, con un orden de prioridad, para utilizar en un elemento seleccionado.
+width: especifica la anchura del area de contenido de un elemento.
+height: especifica la altura del area de contenido de un elemento.
+margin: establece el margen para los cuatro lados.
+*/

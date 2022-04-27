@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- Centro de Biotecnologia Agropecuaria
+Análisis y Desarrollo de Software
+Ficha: 2470980
+Autor: Lina Jhoanna Martínez Garzón
+Fecha de creación: 15/02/2022
+Fecha de actualización: 22/02/2022-->
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejemplo de tabla compleja</title>
+        <link rel="icon" href="Imagen/Tabla_compleja.png">
+        <link rel="stylesheet" href="Css/EJERCICIO12.CSS">
+    </head>
+    <body>
+        <!-- Etiquetas Utlizadas:
+        h3: define encabezados o títulos.
+        table: define una tabla.
+        caption: define el título de una tabla.
+        tr: define una fila en una tabla.
+        br: define un salto de línea.
+        strong: define un texto en negrita.
+        th: define una celda de encabezado en una tabla
+        td: define una celda en una tabla.-->
+        <div id="container">
+            
+            <h3 class="love">Comparativa de reproductores mp3</h3>
+            <table class="love">
+                <caption>Tabla comparativa de las características técnicas de los reproductores MP3</caption>
+                <tr class="love">
+
+                    <th></th>
+                    <th abbr="Reproductor mini" scope="col" colspan="3">
+                        <img src="imagenes/mp3_pequeño_blanco.png" alt="Imagen de reproductor MP3 pequeño de color blanco" />
+                        <img src="imagenes/mp3_pequeño_negro.png" alt="Imagen de reproductor MP3 pequeño de color negro" />
+                        <br/><strong>MP3 mini</strong>
+                    </th>
+                    <th abbr="Reproductor estándar" scope="col" colspan="2">
+                        <img src="imagenes/mp3_grande_blanco.png" alt="Imagen de reproductor MP3 grande de color blanco" />
+                        <img src="imagenes/mp3_grande_negro.png" alt="Imagen de reproductor MP3 grande de color negro" />
+                        <br/><strong>MP3 grande</strong>
+                    </th>
+                </tr>
+                <tr class="love">
+                    <th scope="row" abbr="Capacidad">Capacidad de almacenamiento</th>
+                    <td>4GB<br/>(1.000 canciones)</td>
+                    <td>8GB<br/>(2.000 canciones)</td>
+                    <td>16GB<br/>(4.000 canciones)</td>
+                    <td>30GB<br/>(7.500 canciones)</td>
+                    <td>80GB<br/>(20.000 canciones)</td>
+                </tr>
+                <tr class="love">
+                    <th scope="row" abbr="Colores disponibles">Colores</th>
+                    <td>
+                    <img src="imagenes/color_blanco.png" alt="Color blanco" />
+                    </td>
+                    <td>
+                    <img src="imagenes/color_negro.pmg" alt="Color negro" />
+                    <img src="imagenes/color_Verde.pmg" alt="Color Verde" />
+                    <img src="imagenes/color_Azul.pmg" alt="Color Azul" />
+                    <img src="imagenes/color_rosa.pmg" alt="Color rosa" />
+                    </td>
+                    <td>
+                    <img src="imagenes/color_negro.png" alt="Color negro" />
+                    </td>
+                    <td colspan="2">
+                    <img src="imagenes/color_blanco.png" alt="Color blanco" />
+                    <img src="imagenes/color_negro.png" alt="Color negro" />
+                    </td>
+                </tr>
+                <tr class="love">
+                    <th scope="row" abbr="Tamaño de pantalla">Pantalla</th>
+                    <td colspan="3">LCD de 3 cm (diagonal) con retroiluminación</td>
+                    <td colspan="2">LCD de 6 cm (diagonal) con retroiluminación</td>
+                </tr>
+                <tr class="love">
+                    <th rowspan="2" scope="row" abbr="Tiempo de carga">Tiempo de carga</th>
+                    <td rowspan="2" colspan="3"> Unas 3 horas </td>
+                    <td colspan="2">Unas 4 horas</td>
+                </tr>
+                <tr class="love">
+                    <td colspan="2">Unas 2 horas para alcanzar el 80% de la capacidad</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
